@@ -21,7 +21,7 @@ noOf_L = name_joined.count("l")
 noOf_O = name_joined.count("o")
 noOf_V = name_joined.count("v")
 
-total2 = noOf_E + noOf_O + noOf_V + noOf_L
+total2 = noOf_E + noOf_O + noOf_V + noOf_L 
 
 """print(f"L occurs {noOf_L} time(s)")
 print(f"O occurs {noOf_O} time(s)")
@@ -37,4 +37,4 @@ if love_score < 10 or love_score > 90:
 elif love_score >= 40 and love_score <= 50:
     print(f"Your score is {love_score}, you are alright together.")
 else:
-    print(f"Your score is {love_score}")
+    print(f"Your score is {love_score}") 
