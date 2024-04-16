@@ -59,6 +59,8 @@ def blackjack():
                 print(f"You win \N{grinning face}")
             elif sum(computer) > 21:
                 print(f"Opponent went over \N{grinning face}")
+            elif sum(user) == sum(computer):
+                print(f"Draw \N{expressionless face}")
             else:
                 print(f"You lose \N{expressionless face}")
 
@@ -87,4 +89,4 @@ def blackjack():
             computer.append(new_card_computer)
 
 
-blackjack()
+stillplaying()
